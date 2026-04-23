@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94A1D8972F995B8C0002AB01 /* ClientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1D8962F995B8C0002AB01 /* ClientsListView.swift */; };
+		94A1D8992F995C6D0002AB01 /* ClientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1D8982F995C6D0002AB01 /* ClientsViewModel.swift */; };
+		94A1D89A2F995FA90002AB01 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1D8872F98FDCD0002AB01 /* Client.swift */; };
+		94A1D89B2F995FB30002AB01 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1D8882F98FDE00002AB01 /* Address.swift */; };
+		94A1D89C2F995FC40002AB01 /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1D88A2F98FE640002AB01 /* PersistanceService.swift */; };
+		94A1D89D2F9960220002AB01 /* ClientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1D88C2F98FE8A0002AB01 /* ClientDetailView.swift */; };
+		94A1D89E2F9960760002AB01 /* NewClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1D88D2F98FEA70002AB01 /* NewClientView.swift */; };
+		94A1D89F2F9960BA0002AB01 /* ClientRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1D8912F994C480002AB01 /* ClientRowView.swift */; };
+		94A1D8A02F9961500002AB01 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1D88F2F9948F90002AB01 /* AvatarView.swift */; };
+		94A1D8A12F9961CD0002AB01 /* AddressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1D8922F994F0B0002AB01 /* AddressCardView.swift */; };
+		94A1D8A22F9962780002AB01 /* NewAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1D88E2F98FEB90002AB01 /* NewAddressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94A1D8742F98FC840002AB01 /* OrionTek_Address_Gestor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrionTek_Address_Gestor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A1D8872F98FDCD0002AB01 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		94A1D8882F98FDE00002AB01 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		94A1D88A2F98FE640002AB01 /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
+		94A1D88C2F98FE8A0002AB01 /* ClientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDetailView.swift; sourceTree = "<group>"; };
+		94A1D88D2F98FEA70002AB01 /* NewClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClientView.swift; sourceTree = "<group>"; };
+		94A1D88E2F98FEB90002AB01 /* NewAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddressView.swift; sourceTree = "<group>"; };
+		94A1D88F2F9948F90002AB01 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		94A1D8912F994C480002AB01 /* ClientRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientRowView.swift; sourceTree = "<group>"; };
+		94A1D8922F994F0B0002AB01 /* AddressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCardView.swift; sourceTree = "<group>"; };
+		94A1D8962F995B8C0002AB01 /* ClientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsListView.swift; sourceTree = "<group>"; };
+		94A1D8982F995C6D0002AB01 /* ClientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		94A1D8762F98FC840002AB01 /* OrionTek_Address_Gestor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OrionTek_Address_Gestor;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94A1D8712F98FC830002AB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94A1D86B2F98FC830002AB01 = {
+			isa = PBXGroup;
+			children = (
+				94A1D8852F98FD6B0002AB01 /* Services */,
+				94A1D8842F98FD500002AB01 /* Views */,
+				94A1D8832F98FD3E0002AB01 /* ViewModels */,
+				94A1D8822F98FD180002AB01 /* Models */,
+				94A1D8762F98FC840002AB01 /* OrionTek_Address_Gestor */,
+				94A1D8752F98FC840002AB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94A1D8752F98FC840002AB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94A1D8742F98FC840002AB01 /* OrionTek_Address_Gestor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94A1D8822F98FD180002AB01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94A1D8882F98FDE00002AB01 /* Address.swift */,
+				94A1D8872F98FDCD0002AB01 /* Client.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94A1D8832F98FD3E0002AB01 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				94A1D8982F995C6D0002AB01 /* ClientsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		94A1D8842F98FD500002AB01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94A1D8962F995B8C0002AB01 /* ClientsListView.swift */,
+				94A1D88E2F98FEB90002AB01 /* NewAddressView.swift */,
+				94A1D88D2F98FEA70002AB01 /* NewClientView.swift */,
+				94A1D88C2F98FE8A0002AB01 /* ClientDetailView.swift */,
+				94A1D8862F98FD7A0002AB01 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94A1D8852F98FD6B0002AB01 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				94A1D88A2F98FE640002AB01 /* PersistanceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		94A1D8862F98FD7A0002AB01 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				94A1D8922F994F0B0002AB01 /* AddressCardView.swift */,
+				94A1D8912F994C480002AB01 /* ClientRowView.swift */,
+				94A1D88F2F9948F90002AB01 /* AvatarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94A1D8732F98FC830002AB01 /* OrionTek_Address_Gestor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A1D87F2F98FC850002AB01 /* Build configuration list for PBXNativeTarget "OrionTek_Address_Gestor" */;
+			buildPhases = (
+				94A1D8702F98FC830002AB01 /* Sources */,
+				94A1D8712F98FC830002AB01 /* Frameworks */,
+				94A1D8722F98FC830002AB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				94A1D8762F98FC840002AB01 /* OrionTek_Address_Gestor */,
+			);
+			name = OrionTek_Address_Gestor;
+			packageProductDependencies = (
+			);
+			productName = OrionTek_Address_Gestor;
+			productReference = 94A1D8742F98FC840002AB01 /* OrionTek_Address_Gestor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94A1D86C2F98FC830002AB01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					94A1D8732F98FC830002AB01 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 94A1D86F2F98FC830002AB01 /* Build configuration list for PBXProject "OrionTek_Address_Gestor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94A1D86B2F98FC830002AB01;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 94A1D8752F98FC840002AB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94A1D8732F98FC830002AB01 /* OrionTek_Address_Gestor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94A1D8722F98FC830002AB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94A1D8702F98FC830002AB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A1D89D2F9960220002AB01 /* ClientDetailView.swift in Sources */,
+				94A1D89E2F9960760002AB01 /* NewClientView.swift in Sources */,
+				94A1D8A02F9961500002AB01 /* AvatarView.swift in Sources */,
+				94A1D89C2F995FC40002AB01 /* PersistanceService.swift in Sources */,
+				94A1D8A12F9961CD0002AB01 /* AddressCardView.swift in Sources */,
+				94A1D8972F995B8C0002AB01 /* ClientsListView.swift in Sources */,
+				94A1D89F2F9960BA0002AB01 /* ClientRowView.swift in Sources */,
+				94A1D89A2F995FA90002AB01 /* Client.swift in Sources */,
+				94A1D8992F995C6D0002AB01 /* ClientsViewModel.swift in Sources */,
+				94A1D8A22F9962780002AB01 /* NewAddressView.swift in Sources */,
+				94A1D89B2F995FB30002AB01 /* Address.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		94A1D87D2F98FC850002AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94A1D87E2F98FC850002AB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94A1D8802F98FC850002AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeromy.OrionTek-Address-Gestor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94A1D8812F98FC850002AB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeromy.OrionTek-Address-Gestor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94A1D86F2F98FC830002AB01 /* Build configuration list for PBXProject "OrionTek_Address_Gestor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A1D87D2F98FC850002AB01 /* Debug */,
+				94A1D87E2F98FC850002AB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A1D87F2F98FC850002AB01 /* Build configuration list for PBXNativeTarget "OrionTek_Address_Gestor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A1D8802F98FC850002AB01 /* Debug */,
+				94A1D8812F98FC850002AB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94A1D86C2F98FC830002AB01 /* Project object */;
+}
