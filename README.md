@@ -16,7 +16,7 @@ Aplicación iOS para la gestión de clientes y sus direcciones, desarrollada com
 
 ##  Características
 
--  **Gestión completa de clientes ** - Crear, leer, actualizar y eliminar clientes
+-  **Gestión completa de clientes** - Crear, leer, actualizar y eliminar clientes
 -  **Múltiples direcciones por cliente** - Cada cliente puede tener N direcciones
 -  **Búsqueda en tiempo real** - Filtrado instantáneo por nombre de cliente
 -  **Dirección principal** - Marcado de dirección principal (solo una por cliente)
