@@ -1,6 +1,6 @@
 # OrionTek Address Manager
 
-Aplicación iOS para la gestión de clientes y sus direcciones, desarrollada como prueba técnica para OrionTek.
+Aplicación iOS para la gestión de clientes y sus direcciones.
 
 ##  Preview
 
